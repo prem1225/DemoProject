@@ -37,6 +37,7 @@ namespace OrderManagement
                 builder.WithOrigins("http://localhost:4200/")
                         .AllowAnyMethod()
                         .AllowAnyHeader()
+                        .SetIsOriginAllowed((host) => true)
                         .AllowCredentials();
                         }));
             services.AddSignalR();
@@ -55,6 +56,7 @@ namespace OrderManagement
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
             app.UseCors("MyPolicy");
 
             app.UseAuthorization();

@@ -40,7 +40,7 @@ export class OrderAddComponent implements OnInit {
 
   }
   PlaceOrder() {
-    this.http.post<any>(this.baseUrl + 'api/Order/PlaceOrder', null, this.options).subscribe(
+    this.http.post<any>(this.baseUrl + 'api/Order/PlaceOrder', null).subscribe(
       res => {
 
       },

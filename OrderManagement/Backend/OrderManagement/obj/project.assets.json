@@ -1440,11 +1440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\OrderNotificatinUsingSignalR\\Backend\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+      "projectUniqueName": "D:\\Personal\\Project\\Demo\\DemoProject\\OrderManagement\\Backend\\OrderManagement\\OrderManagement.csproj",
       "projectName": "OrderManagement",
-      "projectPath": "D:\\Personal\\OrderNotificatinUsingSignalR\\Backend\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+      "projectPath": "D:\\Personal\\Project\\Demo\\DemoProject\\OrderManagement\\Backend\\OrderManagement\\OrderManagement.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\OrderNotificatinUsingSignalR\\Backend\\OrderManagement\\OrderManagement\\obj\\",
+      "outputPath": "D:\\Personal\\Project\\Demo\\DemoProject\\OrderManagement\\Backend\\OrderManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
